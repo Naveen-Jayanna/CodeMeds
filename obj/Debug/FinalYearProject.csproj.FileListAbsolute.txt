@@ -1,0 +1,31 @@
+c:\users\navee\onedrive\documents\visual studio 2010\Projects\FinalYearProject\FinalYearProject\bin\FinalYearProject.dll
+c:\users\navee\onedrive\documents\visual studio 2010\Projects\FinalYearProject\FinalYearProject\bin\FinalYearProject.pdb
+c:\users\navee\onedrive\documents\visual studio 2010\Projects\FinalYearProject\FinalYearProject\obj\Debug\FinalYearProject.dll
+c:\users\navee\onedrive\documents\visual studio 2010\Projects\FinalYearProject\FinalYearProject\obj\Debug\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Documents\Visual Studio 2010\Projects\FinalYearProject\FinalYearProject\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\navee\OneDrive\Documents\Visual Studio 2010\Projects\FinalYearProject\FinalYearProject\bin\MySql.Data.dll
+C:\Users\Thejas\Downloads\FinalYearProject-2020\bin\FinalYearProject.dll
+C:\Users\Thejas\Downloads\FinalYearProject-2020\bin\FinalYearProject.pdb
+C:\Users\Thejas\Downloads\FinalYearProject-2020\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\Thejas\Downloads\FinalYearProject-2020\obj\Debug\FinalYearProject.dll
+C:\Users\Thejas\Downloads\FinalYearProject-2020\obj\Debug\FinalYearProject.pdb
+C:\Users\Harry\Desktop\FinalYearProject(pharmacy done)\bin\FinalYearProject.dll
+C:\Users\Harry\Desktop\FinalYearProject(pharmacy done)\bin\FinalYearProject.pdb
+C:\Users\Harry\Desktop\FinalYearProject(pharmacy done)\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\Harry\Desktop\FinalYearProject(pharmacy done)\obj\Debug\FinalYearProject.dll
+C:\Users\Harry\Desktop\FinalYearProject(pharmacy done)\obj\Debug\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject(warehouse somewhat done)\bin\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject(warehouse somewhat done)\bin\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject(warehouse somewhat done)\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\navee\OneDrive\Desktop\FinalYearProject(warehouse somewhat done)\obj\Debug\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject(warehouse somewhat done)\obj\Debug\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Completed\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Completed\bin\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Completed\bin\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Completed\obj\Debug\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Completed\obj\Debug\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Ready for demo\bin\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Ready for demo\bin\FinalYearProject.pdb
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Ready for demo\obj\Debug\FinalYearProject.csprojResolveAssemblyReference.cache
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Ready for demo\obj\Debug\FinalYearProject.dll
+C:\Users\navee\OneDrive\Desktop\FinalYearProject Ready for demo\obj\Debug\FinalYearProject.pdb

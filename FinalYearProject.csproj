@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66B5CB06-04F6-4D2F-B9E1-CCE4F4C865BB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FinalYearProject</RootNamespace>
+    <AssemblyName>FinalYearProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bundles\css\font-awesome.min.css" />
+    <Content Include="bundles\css\style.css" />
+    <Content Include="bundles\images\image.jpg" />
+    <Content Include="bundles\images\tick.png" />
+    <Content Include="css\basictable.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\icon-font.min.css" />
+    <Content Include="css\jqcandlestick.css" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\lightbox.css" />
+    <Content Include="css\monthly.css" />
+    <Content Include="css\morris.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\table-style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\closew.gif" />
+    <Content Include="images\cross.png" />
+    <Content Include="images\g1.jpg" />
+    <Content Include="images\g2.jpg" />
+    <Content Include="images\g3.jpg" />
+    <Content Include="images\g4.jpg" />
+    <Content Include="images\g5.jpg" />
+    <Content Include="images\g6.jpg" />
+    <Content Include="images\g7.jpg" />
+    <Content Include="images\g8.jpg" />
+    <Content Include="images\g9.jpg" />
+    <Content Include="images\grid.png" />
+    <Content Include="images\icon_sprite.png" />
+    <Content Include="images\in.jpg" />
+    <Content Include="images\in1.jpg" />
+    <Content Include="images\in10.jpg" />
+    <Content Include="images\in11.jpg" />
+    <Content Include="images\in2.jpg" />
+    <Content Include="images\in3.jpg" />
+    <Content Include="images\in4.jpg" />
+    <Content Include="images\in5.jpg" />
+    <Content Include="images\in6.jpg" />
+    <Content Include="images\in7.jpg" />
+    <Content Include="images\in8.jpg" />
+    <Content Include="images\in9.jpg" />
+    <Content Include="images\leftw.gif" />
+    <Content Include="images\next.png" />
+    <Content Include="images\phon.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\rightw.gif" />
+    <Content Include="images\right_arrow.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\smile.png" />
+    <Content Include="images\tick.png" />
+    <Content Include="images\tick1.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\Chart.js" />
+    <Content Include="js\jquery-2.1.4.min.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.basictable.min.js" />
+    <Content Include="js\jquery.jqcandlestick.min.js" />
+    <Content Include="js\jquery.nicescroll.js" />
+    <Content Include="js\lightbox-plus-jquery.min.js" />
+    <Content Include="js\monthly.js" />
+    <Content Include="js\morris.js" />
+    <Content Include="js\raphael-min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="login.aspx" />
+    <Content Include="ManuHome.aspx" />
+    <Content Include="PharHome.aspx" />
+    <Content Include="PharRequests.aspx" />
+    <Content Include="WarehouseRequests.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WareHome.aspx" />
+    <Content Include="PharmacyHistory.aspx" />
+    <Content Include="WarehouseToCompany.aspx" />
+    <Content Include="ManuGrant.aspx" />
+    <Content Include="WarehouseResponse.aspx" />
+    <Content Include="ManuTotalTablets.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Manufacturer.Master.cs">
+      <DependentUpon>Manufacturer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manufacturer.Master.designer.cs">
+      <DependentUpon>Manufacturer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManuHome.aspx.cs">
+      <DependentUpon>ManuHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManuHome.aspx.designer.cs">
+      <DependentUpon>ManuHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PharHome.aspx.cs">
+      <DependentUpon>PharHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PharHome.aspx.designer.cs">
+      <DependentUpon>PharHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy.Master.cs">
+      <DependentUpon>Pharmacy.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pharmacy.Master.designer.cs">
+      <DependentUpon>Pharmacy.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PharRequests.aspx.cs">
+      <DependentUpon>PharRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PharRequests.aspx.designer.cs">
+      <DependentUpon>PharRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLliteConnector.cs" />
+    <Compile Include="Warehouse.Master.cs">
+      <DependentUpon>Warehouse.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Warehouse.Master.designer.cs">
+      <DependentUpon>Warehouse.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WareHome.aspx.cs">
+      <DependentUpon>WareHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WareHome.aspx.designer.cs">
+      <DependentUpon>WareHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseRequests.aspx.cs">
+      <DependentUpon>WarehouseRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseRequests.aspx.designer.cs">
+      <DependentUpon>WarehouseRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PharmacyHistory.aspx.cs">
+      <DependentUpon>PharmacyHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PharmacyHistory.aspx.designer.cs">
+      <DependentUpon>PharmacyHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseToCompany.aspx.cs">
+      <DependentUpon>WarehouseToCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseToCompany.aspx.designer.cs">
+      <DependentUpon>WarehouseToCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManuGrant.aspx.cs">
+      <DependentUpon>ManuGrant.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManuGrant.aspx.designer.cs">
+      <DependentUpon>ManuGrant.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WarehouseResponse.aspx.cs">
+      <DependentUpon>WarehouseResponse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WarehouseResponse.aspx.designer.cs">
+      <DependentUpon>WarehouseResponse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManuTotalTablets.aspx.cs">
+      <DependentUpon>ManuTotalTablets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManuTotalTablets.aspx.designer.cs">
+      <DependentUpon>ManuTotalTablets.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Manufacturer.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bundles\fonts\fontawesome-webfont.eot" />
+    <None Include="bundles\fonts\fontawesome-webfont.ttf" />
+    <None Include="bundles\fonts\fontawesome-webfont.woff" />
+    <None Include="bundles\fonts\fontawesome-webfont.woff2" />
+    <None Include="bundles\fonts\FontAwesome.otf" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\fontawesome-webfont.woff2" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <None Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Warehouse.Master" />
+    <Content Include="Pharmacy.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>11313</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
